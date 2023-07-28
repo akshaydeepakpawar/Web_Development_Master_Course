@@ -1,0 +1,41 @@
+
+.window{
+    width: 445px;
+    min-height: 200px;
+    margin: 10% auto;
+    padding:20px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+}
+.img{
+width: 400px;
+border-radius: 0.5rem;
+}
+.one,.two,.three{
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size:medium;
+}
+.one{
+    color: rgb(57, 57, 239);
+}
+.two{
+    color: gray;
+}
+.three{
+    border-radius: 5px;
+    background-color: rgb(121, 210, 188);
+    padding: 5px;
+    color: white;
+}
+hr{
+    box-sizing: border-box;
+    margin-right:5rem ;
+    margin-bottom:20px ;
+
+}
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

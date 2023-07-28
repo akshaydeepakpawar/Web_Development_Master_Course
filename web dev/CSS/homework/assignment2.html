@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        height: 100%;
+        width: 100%;
+      }
+      .parent {
+        font-size:3rem;
+        position: relative;
+        text-align: center;
+        color: white;
+      }
+      .topleft {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+      }
+      .topright {
+        position: absolute;
+        top: 50px;
+        right: 50px;
+      }
+      .bottomleft {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+      }
+      .bottomright {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+      }
+      .center{
+        position: absolute;
+        top: 46%;
+        left: 46%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <img
+        src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+        alt=""
+      />
+      <div class="topleft">Top-Left</div>
+      <div class="topright">Top-Right</div>
+      <div class="bottomleft">Bottom-left</div>
+      <div class="bottomright">Bottom-right</div>
+      <div class="center">Center</div>
+    </div>
+  </body>
+</html>

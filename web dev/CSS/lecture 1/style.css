@@ -1,0 +1,38 @@
+p {
+    color: red;
+    font-size: larger;
+  }
+  h1 {
+    background-color: aqua;
+  }
+  table {
+    border: 5px solid black;
+  }
+  .green{
+    color: green;
+  }
+  .red{
+    color: red;
+  }
+  .blue{
+    color: blue;
+  }
+  h1,h2,h3{
+    font-size: small;
+  }
+  h4,h5,h6{
+    font-size: larger;
+  }
+  
+  #button1{
+    color: red;
+  }
+  #button1:hover{
+    color: yellow;
+  }
+  #intro{
+    background-color: aqua;
+  }
+  .link:hover{
+    color: black;
+  }
